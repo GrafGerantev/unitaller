@@ -1,0 +1,37 @@
+{
+  "name": "bslab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.0",
+    "gulp-cache": "^1.1.3",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-cli": "^2.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^6.1.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglifyjs": "^0.6.2",
+    "imagemin-pngquant": "^8.0.0",
+    "jquery.waitforimages": "^2.4.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "dependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
+    "animate.css": "^3.7.2",
+    "jquery": "^3.4.1",
+    "selectize": "^0.12.6",
+    "wow.js": "^1.2.2"
+  }
+}

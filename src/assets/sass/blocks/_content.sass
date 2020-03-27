@@ -1,0 +1,25 @@
+.content
+  @include main
+  width: 100%
+  &-header
+    padding: 30px 0
+    display: flex
+    justify-content: space-between
+    align-items: center
+    &__paysystems
+      max-width: 254px
+      width: 100%
+      display: flex
+      justify-content: space-between
+      align-items: center
+      img
+        display: block
+        &:not(:first-child)
+          margin-left: 5px
+  &-logo
+    max-width: 93px
+    height: auto
+  &-inner
+    width: 100%
+    display: flex
+    justify-content: space-between

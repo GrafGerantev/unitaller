@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Uniteller</title>
+    <link rel="stylesheet" href="assets/css/style.min.css">
+</head>
+<body>
+    <div class="main">
+
+        <header class="header">
+            <div class="header__inner"></div>
+        </header>
+
+        <section class="content">
+            <div class="content-header">
+                <div class="content-logo">
+                    <a href="#" class="content-logo__link">
+                        <img src="assets/img/logo/logo.png" alt="logo">
+                    </a>
+                </div>
+                <!--/.content-logo-->
+                <div class="content-header__paysystems">
+                    <img src="assets/img/paysystems/mir.png" alt="mir">
+                    <img src="assets/img/paysystems/visa.png" alt="visa">
+                    <img src="assets/img/paysystems/maestro.png" alt="maestro">
+                    <img src="assets/img/paysystems/mastercard.png" alt="mastercard">
+                </div>
+                <!--/.content-header__paysystems-->
+            </div>
+            <!--/.content-header-->
+
+            <div class="content-inner">
+                <div class="payment">
+                    <form action="#" class="form-payment">
+                        <h2 class="form-payment__title"> Оплата: 404,00 ₽</h2>
+                        <div class="form-information">
+                            <div class="form-information__descr">
+                                <div class="form-information__shop form-information--black">
+                                    Магазин: <span>Социальная карта</span>
+                                </div>
+                                <div class="form-information__order form-information--black">
+                                    Номер заказа: <span>6378209463</span>
+                                </div>
+                            </div>
+                            <!--/.form-information__descr-->
+                            <div class="form-information__security">
+                                <img src="assets/img/form/castle.png" alt="castle">
+                                <div class="form-information__security-text">Безопасная форма оплаты</div>
+                            </div>
+                        </div>
+                        <!--/.form-information-->
+                        <div class="cards">
+                            <div class="card card-front otkritie--color slash-color">
+                                <div class="card-square card-number">
+                                    <label class="card-square-wrapper">
+                                        <input type="text" class="card-square__value" maxlength="256">
+                                        <span class="card-square__label-text">
+                                            Номер карты
+                                        </span>
+                                        <div class="close">
+                                            <img src="assets/img/icons/close.png" alt="close">
+                                        </div>
+                                    </label>
+                                    <!--/.card-number-wrapper-->
+                                </div>
+                                <!--/.card-square-->
+                                <div class="card-validity">
+                                    <div class="card-square card-square--month">
+                                        <label class="card-square-wrapper">
+                                            <select size="1" name="month" id="select-beast" class="selectize card-selectize">
+                                                <option value="hidden"></option>
+                                                <option value="Январь">Январь</option>
+                                                <option value="Февраль">Февраль</option>
+                                                <option value="Март">Март</option>
+                                                <option value="Апрель">Апрель</option>
+                                                <option value="Май">Май</option>
+                                                <option value="Июнь">Июнь</option>
+                                                <option value="Июль">Июль</option>
+                                                <option value="Август">Август</option>
+                                                <option value="Сентябрь">Сентябрь</option>
+                                                <option value="Октябрь">Октябрь</option>
+                                                <option value="Ноябрь">Ноябрь</option>
+                                                <option value="Декабрь">Декабрь</option>
+                                            </select>
+                                            <span class="card-square__label-text">
+                                            Месяц
+                                        </span>
+                                        </label>
+                                        <!--/.card-square-wrapper-->
+                                    </div>
+                                    <!--/.card-square-->
+                                    <div class="card-square card-square--year">
+                                        <label class="card-square-wrapper">
+                                            <input type="text" class="card-square__value" maxlength="4">
+                                            <span class="card-square__label-text">
+                                            Год
+                                        </span>
+                                        </label>
+                                        <!--/.card-square-wrapper-->
+                                    </div>
+                                    <!--/.card-square-->
+                                    <!--<div class="bank-image bank-image&#45;&#45;sberbank"></div>-->
+                                    <!--<div class="bank-image bank-image&#45;&#45;tinkoff"></div>-->
+                                    <!--<div class="bank-image bank-image&#45;&#45;alfa"></div>-->
+                                    <div class="bank-image bank-image--otkritie"></div>
+                                </div>
+                                <!--/.card-validity-->
+                            </div>
+                            <!--/.card-front-->
+                            <div class="card card-back">
+                                <div class="magneticTape"></div>
+                                <div class="card-square card-square--cvc">
+                                    <label class="card-square-wrapper">
+                                        <input type="password" class="card-square__value" maxlength="3">
+                                        <span class="card-square__label-text card-square__label-text--cvc">
+                                            CVC
+                                        </span>
+                                    </label>
+                                    <!--/.card-square-wrapper-->
+                                </div>
+                                <!--/.card-square-->
+                            </div>
+                        </div>
+                        <!--/.cards-->
+                        <div class="card-save">
+                            <div class="checkbox">
+                                <input type="checkbox" id="checkbox">
+                                <label for="checkbox">Запомнить карту</label>
+                            </div>
+                        </div>
+                    </form>
+                    <!--/.form-payment-->
+                </div>
+                <!--/.content-payment-->
+
+                <div class="aside">
+                    <div class="aside-images">
+                        <img src="assets/img/form/aside-1.png" alt="img">
+                        <img src="assets/img/form/aside-2.png" alt="img">
+                        <img src="assets/img/form/aside-3.png" alt="img">
+                        <img src="assets/img/form/aside-4.png" alt="img">
+                    </div>
+                    <div class="aside-descr">
+                        <p>В системе Uniteller безопасность платежей и конфиденциальность введенной Вами информации обеспечивается использованием протокола TLS и другими специальными средствами. Ваша конфиденциальная информация хранится исключительно нами и ни при каких обстоятельствах не будет предоставлена третьим лицам за исключением случаев, предусмотренных законодательством.</p>
+                        <p>В случае возникновения вопросов Вы можете обратиться в Службу поддержки компании Uniteller по телефону 8 800 707-67-19 или электронной почте <a href="support@uniteller.ru">support@uniteller.ru</a></p>
+                    </div>
+                </div>
+                <!--/.aside-->
+            </div>
+            <!--/.content-inner-->
+        </section>
+        <!--/.content-->
+    </div>
+    <script src="assets/js/libs.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
