@@ -47,6 +47,8 @@ gulp.task('css', function(){
         'src/assets/css/normalize.css',
         'src/assets/css/font.css',
         'node_modules/selectize/dist/css/selectize.default.css',
+        'src/assets/css/tooltipster-sideTip-borderless.min.css',
+        'src/assets/css/tooltipster.bundle.min.css',
         //'src/assets/css/animate.css',
         //'src/assets/css/tiltedpage-scroll.css',
         /*'src/css/fontello.css',*/
@@ -67,6 +69,7 @@ gulp.task('scripts', function() {
     return gulp.src([ // Берем все необходимые библиотеки
         'src/assets/js/jquery.min.js',
         'node_modules/selectize/dist/js/standalone/selectize.js',
+        'src/assets/js/tooltipster.bundle.min.js',
         //'src/assets/js/jquery.validate.min.js',
         //'src/assets/js/jquery.maskedinput.min.js',
         //'src/assets/js/jquery.vide.js',

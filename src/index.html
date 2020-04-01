@@ -54,7 +54,7 @@
                             <div class="card card-front otkritie--color slash-color">
                                 <div class="card-square card-number">
                                     <label class="card-square-wrapper">
-                                        <input type="text" class="card-square__value" maxlength="256">
+                                        <input type="text" class="card-square__value" maxlength="256" required>
                                         <span class="card-square__label-text">
                                             Номер карты
                                         </span>
@@ -92,7 +92,7 @@
                                     <!--/.card-square-->
                                     <div class="card-square card-square--year">
                                         <label class="card-square-wrapper">
-                                            <input type="text" class="card-square__value" maxlength="4">
+                                            <input type="text" class="card-square__value" maxlength="4" required>
                                             <span class="card-square__label-text">
                                             Год
                                         </span>
@@ -112,7 +112,7 @@
                                 <div class="magneticTape"></div>
                                 <div class="card-square card-square--cvc">
                                     <label class="card-square-wrapper">
-                                        <input type="password" class="card-square__value" maxlength="3">
+                                        <input type="password" class="card-square__value" maxlength="3" required >
                                         <span class="card-square__label-text card-square__label-text--cvc">
                                             CVC
                                         </span>
@@ -120,6 +120,7 @@
                                     <!--/.card-square-wrapper-->
                                 </div>
                                 <!--/.card-square-->
+                                <div class="card-back__question tooltip" title="Вознаграждение, перечисляемое плательщиком, совершающим платеж при помощи банковских карт МИР, VISA или MasterCard с использованием настоящего сайта,">Что это?</div>
                             </div>
                         </div>
                         <!--/.cards-->
@@ -129,8 +130,39 @@
                                 <label for="checkbox">Запомнить карту</label>
                             </div>
                         </div>
+                        <!--/.card-save-->
+                        <div class="sendEmail">
+                            <div class="sendEmail-title form-information--black">
+                                Отправить чек на Email
+                            </div>
+                            <div class="sendEmail-content">
+                                <div class="card-square card-square--email">
+                                    <label class="card-square-wrapper">
+                                        <input type="text" class="card-square__value" maxlength="256" required >
+                                        <span class="card-square__label-text card-square__label-text--email">
+                                            Email
+                                        </span>
+                                    </label>
+                                    <!--/.card-square-wrapper-->
+                                </div>
+                                <!--/.card-square-->
+                                <button type="submit" class="btn">Оплатить</button>
+                            </div>
+                            <!--/.sendEmail-content-->
+                        </div>
+                        <!--/.sendEmail-->
                     </form>
                     <!--/.form-payment-->
+                    <div class="paymentMethod">
+                        <div class="paymentMethod-title form-information--black">
+                            Другие способы оплаты
+                        </div>
+                        <div class="paymentMethod-items">
+                            <button type="submit" class="paymentMethod-btn paymentMethod-btn--google"><img src="assets/img/icons/google.svg" alt="google"></button>
+                            <button type="submit" class="paymentMethod-btn paymentMethod-btn--apple"><img src="assets/img/icons/apple.svg" alt="apple"></button>
+                            <button type="submit" class="paymentMethod-btn paymentMethod-btn--samsung"><img src="assets/img/icons/samsung.svg" alt="samsung"></button>
+                        </div>
+                    </div>
                 </div>
                 <!--/.content-payment-->
 

@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94562652-463c-412d-9d6c-5ad77ea33283" name="Default Changelist" comment="" />
+    <list default="true" id="94562652-463c-412d-9d6c-5ad77ea33283" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/sass/blocks/_button.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/sass/blocks/_email.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/sass/blocks/_paymentMethod.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/sass/blocks/_tooltipster.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/_libs.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/_libs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/libs.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/libs.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sass/blocks/_card-save.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sass/blocks/_card-save.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sass/blocks/_cards.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sass/blocks/_cards.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sass/blocks/_select.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sass/blocks/_select.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sass/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sass/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +33,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZcYMDyXQpazpAl7RD30ElDqLSc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -44,11 +66,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585139799793</updated>
-      <workItem from="1585139801841" duration="42487000" />
+      <workItem from="1585139801841" duration="60141000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

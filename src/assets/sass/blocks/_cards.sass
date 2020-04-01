@@ -19,7 +19,20 @@
     top: 0
     left: 136px
     z-index: 2
-
+    &__question
+      position: absolute
+      bottom: 10px
+      right: 60px
+      font-size: 12px
+      line-height: 16px
+      letter-spacing: 0.4px
+      color: $second-color
+      cursor: pointer
+  &-selectize //Убирает обводку стандартного select
+    user-select: none
+    appearance: none
+    border: none
+    border-radius: 6px
   &-number
     width: 100%
     margin-bottom: 40px
@@ -71,6 +84,11 @@
         font-size: 12px
         line-height: 16px
         letter-spacing: 0.4px
+      &.filled + .card-square__label-text
+        top: 10px
+        font-size: 12px
+        line-height: 16px
+        letter-spacing: 0.4px
       &:focus ~ .close
         display: block
     &__label-text
@@ -99,6 +117,9 @@
       position: absolute
       bottom: 32px
       right: 24px
+    &--email
+      max-width: 284px
+      width: 100%
 
 .magneticTape
   width: 100%
@@ -107,3 +128,10 @@
   top: 32px
   left: 0
   background-color: $card-magneticTape-color
+
+.card-selectize.filled ~ .card-square__label-text
+    //, &:not([value=""]) + .card-square__label-text
+    top: 10px
+    font-size: 12px
+    line-height: 16px
+    letter-spacing: 0.4px
