@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94562652-463c-412d-9d6c-5ad77ea33283" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/sass/blocks/_button.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/sass/blocks/_email.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/sass/blocks/_paymentMethod.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/sass/blocks/_tooltipster.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/sass/blocks/_validation.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/_libs.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/_libs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/js/libs.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/libs.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/sass/blocks/_card-save.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sass/blocks/_card-save.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sass/blocks/_banks.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sass/blocks/_banks.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/sass/blocks/_cards.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sass/blocks/_cards.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/sass/blocks/_select.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sass/blocks/_select.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/sass/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sass/style.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
@@ -56,6 +52,16 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="scripts.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="scripts.js" working-dir="$PROJECT_DIR$/src/assets/js">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.scripts.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -66,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585139799793</updated>
-      <workItem from="1585139801841" duration="60141000" />
+      <workItem from="1585139801841" duration="72483000" />
     </task>
     <servers />
   </component>

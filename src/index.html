@@ -32,7 +32,7 @@
 
             <div class="content-inner">
                 <div class="payment">
-                    <form action="#" class="form-payment">
+                    <form action="#" class="form-payment" id="form-payment">
                         <h2 class="form-payment__title"> Оплата: 404,00 ₽</h2>
                         <div class="form-information">
                             <div class="form-information__descr">
@@ -51,10 +51,13 @@
                         </div>
                         <!--/.form-information-->
                         <div class="cards">
-                            <div class="card card-front otkritie--color slash-color">
+                            <div class="card card-front  slash-color">
+                                <div class="bank-logo">
+                                    <img src="" alt="logo" class="bank-logo__img">
+                                </div>
                                 <div class="card-square card-number">
                                     <label class="card-square-wrapper">
-                                        <input type="text" class="card-square__value" maxlength="256" required>
+                                        <input type="number" name="cardNumber" id="card-number" class="card-square__value" maxlength="16" required>
                                         <span class="card-square__label-text">
                                             Номер карты
                                         </span>
@@ -68,7 +71,7 @@
                                 <div class="card-validity">
                                     <div class="card-square card-square--month">
                                         <label class="card-square-wrapper">
-                                            <select size="1" name="month" id="select-beast" class="selectize card-selectize">
+                                            <select size="1" name="month" id="select-beast" class="selectize card-selectize" required>
                                                 <option value="hidden"></option>
                                                 <option value="Январь">Январь</option>
                                                 <option value="Февраль">Февраль</option>
@@ -92,7 +95,7 @@
                                     <!--/.card-square-->
                                     <div class="card-square card-square--year">
                                         <label class="card-square-wrapper">
-                                            <input type="text" class="card-square__value" maxlength="4" required>
+                                            <input type="number" name="year" class="card-square__value" maxlength="4" required>
                                             <span class="card-square__label-text">
                                             Год
                                         </span>
@@ -103,7 +106,7 @@
                                     <!--<div class="bank-image bank-image&#45;&#45;sberbank"></div>-->
                                     <!--<div class="bank-image bank-image&#45;&#45;tinkoff"></div>-->
                                     <!--<div class="bank-image bank-image&#45;&#45;alfa"></div>-->
-                                    <div class="bank-image bank-image--otkritie"></div>
+<!--                                    <div class="bank-image bank-image&#45;&#45;otkritie"></div>-->
                                 </div>
                                 <!--/.card-validity-->
                             </div>
@@ -112,7 +115,7 @@
                                 <div class="magneticTape"></div>
                                 <div class="card-square card-square--cvc">
                                     <label class="card-square-wrapper">
-                                        <input type="password" class="card-square__value" maxlength="3" required >
+                                        <input type="password" name="cvc" class="card-square__value" maxlength="3" required >
                                         <span class="card-square__label-text card-square__label-text--cvc">
                                             CVC
                                         </span>

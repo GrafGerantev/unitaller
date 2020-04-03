@@ -70,6 +70,8 @@ gulp.task('scripts', function() {
         'src/assets/js/jquery.min.js',
         'node_modules/selectize/dist/js/standalone/selectize.js',
         'src/assets/js/tooltipster.bundle.min.js',
+        'node_modules/jquery-validation/dist/jquery.validate.min.js',
+        'node_modules/card-info/dist/card-info.min.js',
         //'src/assets/js/jquery.validate.min.js',
         //'src/assets/js/jquery.maskedinput.min.js',
         //'src/assets/js/jquery.vide.js',
