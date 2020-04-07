@@ -49,6 +49,8 @@ gulp.task('css', function(){
         'node_modules/selectize/dist/css/selectize.default.css',
         'src/assets/css/tooltipster-sideTip-borderless.min.css',
         'src/assets/css/tooltipster.bundle.min.css',
+        'src/assets/css/ldbtn.min.css',
+        'src/assets/css/loading.min.css',
         //'src/assets/css/animate.css',
         //'src/assets/css/tiltedpage-scroll.css',
         /*'src/css/fontello.css',*/
@@ -71,7 +73,8 @@ gulp.task('scripts', function() {
         'node_modules/selectize/dist/js/standalone/selectize.js',
         'src/assets/js/tooltipster.bundle.min.js',
         'node_modules/jquery-validation/dist/jquery.validate.min.js',
-        'node_modules/card-info/dist/card-info.min.js',
+        //'node_modules/card-info/dist/card-info.min.js',
+        'src/assets/js/card-info.min.js',
         //'src/assets/js/jquery.validate.min.js',
         //'src/assets/js/jquery.maskedinput.min.js',
         //'src/assets/js/jquery.vide.js',
